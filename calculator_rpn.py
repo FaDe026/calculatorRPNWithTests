@@ -4,7 +4,7 @@ import re
 OPS = {
     '+': (1, operator.add),
     '-': (1, operator.sub),
-    '*': (2, operator.mul),
+    '*': (1, operator.mul),
     '/': (2, operator.truediv),
     '**': (3, operator.pow),
 }
